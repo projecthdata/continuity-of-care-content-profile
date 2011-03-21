@@ -1,0 +1,37 @@
+<hcp name="Continuity of Care" id="http://github.com/projecthdata/continuity-of-care-content-profile" 
+ xmlns="http://projecthdata.org/hdata/schemas/2010/04/hcp"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://projecthdata.org/hdata/schemas/2010/04/hcp http://github.com/projecthdata/hData/raw/master/schemas/2010/04/hcp.xsd"
+ xmlns:core="http://projecthdata.org/hdata/schemas/2009/06/core">
+    <core:extensions>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/advance_directive"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/allergy"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/condition"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/encounter"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/provider"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/immunization"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/insurance_provider"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/medication"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/patient_information"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/procedure"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/result"/>
+        <core:extension extensionId="http://projecthdata.org/hdata/schemas/2009/06/support"/>
+    </core:extensions>
+    <core:sections>
+        <core:section path="advance_directives" extensionId="http://projecthdata.org/hdata/schemas/2009/06/advance_directive" name="Advance Directives"/>
+        <core:section path="allergies" extensionId="http://projecthdata.org/hdata/schemas/2009/06/allergy" name="Allergies and Drug Sensitivities"/>
+        <core:section path="conditions" extensionId="http://projecthdata.org/hdata/schemas/2009/06/condition" name="Conditions"/>
+        <core:section path="encounters" extensionId="http://projecthdata.org/hdata/schemas/2009/06/encounter" name="Encounters"/>
+        <core:section path="healthcare_providers" extensionId="http://projecthdata.org/hdata/schemas/2009/06/provider" name="Healthcare Providers"/>
+        <core:section path="immunizations" extensionId="http://projecthdata.org/hdata/schemas/2009/06/immunization" name="Immunizations"/>
+        <core:section path="insurace_providers" extensionId="http://projecthdata.org/hdata/schemas/2009/06/insurance_provider" name="Insurance Providers"/>
+        <core:section path="medications" extensionId="http://projecthdata.org/hdata/schemas/2009/06/medication" name="Medications"/>
+        <core:section path="person_information" extensionId="http://projecthdata.org/hdata/schemas/2009/06/patient_information" name="Person Information"/>
+        <core:section path="procedures" extensionId="http://projecthdata.org/hdata/schemas/2009/06/procedure" name="Procedures"/>
+        <core:section path="supports" extensionId="http://projecthdata.org/hdata/schemas/2009/06/support" name="Supports"/>
+        <core:section path="results" extensionId="uri:none">
+            <core:section path="diagnostic_results" extensionId="http://projecthdata.org/hdata/schemas/2009/06/result" name="Diagnostic Results"/>
+            <core:section path="vital_signs" extensionId="http://projecthdata.org/hdata/schemas/2009/06/result" name="Vital Signs"/>
+        </core:section>
+    </core:sections>
+</hcp>
